@@ -18,5 +18,5 @@ phases:
       - mvn -s settings.xml package
 artifacts:
   files:
-    - target/vishnu-web-project.war
+    - target/web-project.war
   discard-paths: no
