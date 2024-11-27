@@ -31,9 +31,9 @@
 
  - Before the above make sure you have changes the permissions the .pem file
  ```
- icacls "nextwork-keypair.pem" /reset
- icacls "nextwork-keypair.pem" /grant:r "%USERNAME%:R"
- icacls "nextwork-keypair.pem" /inheritance:r
+ icacls "vishnu-keypair.pem" /reset
+ icacls "vishnu-keypair.pem" /grant:r "%USERNAME%:R"
+ icacls "vishnu-keypair.pem" /inheritance:r
  ```
 ### **Install Apache Maven and Amazon Corretto 8:**
 - Apache Maven Installation
